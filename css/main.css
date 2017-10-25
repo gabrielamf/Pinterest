@@ -1,0 +1,230 @@
+  /* para todo */
+  * {
+   margin: 0;
+   padding: 0;
+   font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  header {
+    position: fixed;
+    background-color: #fff;
+    z-index:1;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    width: 100%;
+    /*outline: 1px solid blue;*/
+  }
+
+  /* primer menú */
+  .menu-a {
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #d3d3d3;
+    /*outline: 1px solid red;*/
+  }
+
+  /* icono pinterest */
+  .menu-a li {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .menu-a li a {
+    color: #b5b5b5;
+    text-decoration: none;
+  }
+
+  .menu-a li .circle-red {
+    color: #BB0F23;
+  }
+
+  .menu-a .input-user {
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    margin: 0 16px;
+    width: 70%;
+    padding: 10px;
+  }
+
+  .menu-a .input-user .caja-lupa {
+    width: 85%;
+    display: inline-block;
+  }
+
+  .menu-a .input-user  .caja-lupa input {
+    width: 93%;
+    border: none;
+    line-height: 20px;
+    font-size: 18px;
+    outline: 0;
+    background-color: transparent;
+  }
+
+  .caja-pins {
+    display: inline-block;
+  }
+
+  .menu-a li .white {
+    color: #fff;
+  }
+
+  /* segundo menú */
+ .menu-b {
+   padding: 10px 0;
+   width: 100%;
+   margin: 0;
+   /*outline: 1px solid green;*/
+  }
+
+  .menu-b .category-1, .menu-b .category-2, .menu-b .category-3, .menu-b .category-4, .menu-b .category-5, .menu-b .category-6, .menu-b .category-7, .menu-b .category-8, .menu-b .category-9 {
+   border-radius: 5px;
+   background-size: cover;
+   margin: 0 5px;
+   display: inline-block;
+  }
+
+  .menu-a, .menu-b {
+   text-align: center;
+  }
+
+  .menu-b li {
+    display: inline-block;
+    list-style: none;
+  }
+
+  .menu-b .options p {
+   background-color: rgba(150, 110, 75, .4);
+   color: #fff;
+   padding: 20px 25px;
+   font-weight: 700;
+   border-radius: 6px;
+   display: inline-block;
+  }
+
+
+  .menu-b .category-1 {
+   background-image: url(../assets/images/1.jpg);
+  }
+
+  .menu-b .category-2 {
+   background-image: url(../assets/images/2.jpg);
+  }
+
+  .menu-b .category-3 {
+   background-image: url(../assets/images/3.jpg);
+  }
+
+  .menu-b .category-4 {
+   background-image: url(../assets/images/4.jpg);
+  }
+
+  .menu-b .category-5 {
+   background-image: url(../assets/images/5.jpg);
+  }
+
+  .menu-b .category-6 {
+   background-image: url(../assets/images/6.jpg);
+  }
+
+  .menu-b .category-7 {
+   background-image: url(../assets/images/7.jpg);
+  }
+
+  .menu-b .category-8 {
+   background-image: url(../assets/images/8.jpg);
+  }
+
+  .menu-b .category-9 {
+   background-image: url(../assets/images/9.jpg);
+  }
+
+
+  /* El contenedor de todas las imágenes*/
+  .imagenes {
+   padding: 0 80px;
+   margin-top: 150px;
+   column-width: 270px;
+   column-count: 4;
+   column-gap:20px;
+   /*overflow: auto;*/
+  }
+
+  .imagenes .pin {
+   cursor: pointer;
+   margin-bottom: 20px;
+   display: inline-block;
+   /*outline: 1px solid red;
+   background: red;*/
+  }
+
+  .imagenes .pin img {
+   width: 100%;
+   border-radius: 20px;
+   margin-top: 10px;
+   margin: 0;
+   padding: 0;
+  }
+
+  .imagenes .pin .text {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    /*outline: 1px solid blue;*/
+  }
+
+  .imagenes .pin h4 {
+    margin-bottom: 10px;
+  }
+
+  .imagenes .pin .porcion-usuario {
+    margin-top: 12px;
+    font-size: 15px;
+  }
+
+  .imagenes .pin .porcion-usuario .circulo-color {
+    width: 30px;
+    height: 30px;
+    background-color: #d597a1;
+    border-radius: 50px;
+    margin-right: 3px;
+    margin-top: -5px;
+    text-align: center;
+    float: left;
+  }
+
+  .imagenes .pin .porcion-usuario .circulo-color .usuario-circulo {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    top:6px;
+
+  }
+
+  .imagenes .pin .porcion-usuario .usuario-nombre {
+    font-weight: 700;
+  }
+
+  .imagenes .pin .views span {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    float: right;
+    width: 30%;
+    color: #b5b5b5;
+  }
+
+  .imagenes .pin .porcion-usuario .usuario-nombre {
+    font-weight: 700px;
+  }
+
+  .imagenes .pin .porcion-usuario {
+    margin-top: 12px;
+    font-size: 15px;
+  }
